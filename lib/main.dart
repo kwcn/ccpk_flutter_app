@@ -44,14 +44,14 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-              icon: Icon(Icons.home), title: Text('首页')),
+              icon: Icon(Icons.home), title: Text('首页'), backgroundColor: Colors.blue),
           BottomNavigationBarItem(
-              icon: Icon(Icons.directions_car), title: Text('爱车')),
+              icon: Icon(Icons.directions_car), title: Text('爱车'), backgroundColor: Colors.blue),
           BottomNavigationBarItem(
-              icon: Icon(Icons.chat_bubble_outline), title: Text('社区')),
+              icon: Icon(Icons.chat_bubble_outline), title: Text('社区'), backgroundColor: Colors.blue),
           BottomNavigationBarItem(
-              icon: Icon(Icons.local_mall), title: Text('商城')),
-          BottomNavigationBarItem(icon: Icon(Icons.people), title: Text('我的')),
+              icon: Icon(Icons.local_mall), title: Text('商城'), backgroundColor: Colors.blue),
+          BottomNavigationBarItem(icon: Icon(Icons.people), title: Text('我的'), backgroundColor: Colors.blue),
         ],
         currentIndex: _selectedIndex,
         fixedColor: Colors.deepPurple,
